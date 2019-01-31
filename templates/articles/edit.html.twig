@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Article{% endblock %}
+{% block stylesheets %}{% endblock %}
+
+{% block body %}
+    <h1>Create new article</h1>
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+    <hr>
+    <a href="/">Go Back</a>
+{% endblock %}
+
+{% block javascripts %}{% endblock %}
